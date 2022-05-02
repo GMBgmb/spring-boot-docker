@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+git<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -18,6 +18,11 @@
 		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
+		<Property>
+        <sonar.host.url> http://34.213.7.181:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
+      </Property>
 	</properties>
 
 	<dependencyManagement>
